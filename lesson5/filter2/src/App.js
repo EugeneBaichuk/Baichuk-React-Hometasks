@@ -16,8 +16,13 @@ function App() {
   const [checked, setChecked] = useState(false);
 
   useEffect(() => {
-      // fetch('https://jsonplaceholder.typicode.com/albums')
-      // .then(response => response.json())
+// fetch('https://jsonplaceholder.typicode.com/albums')
+      // .then(res => {
+      //   if (!res.ok) {
+      //     throw new Error(`Что-то пошло не так, status: ${res.status}`);
+      //   } 
+      //   return res.json()
+      // })
       // .then(json => {
       //   const arr = json.map(item => item.title)
       //   const filteredArr = arr.filter(item => item.toLowerCase().includes(formVal.toLowerCase()));
